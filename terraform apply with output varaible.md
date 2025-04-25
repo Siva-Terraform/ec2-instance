@@ -79,8 +79,8 @@ Terraform will perform the following actions:
 Plan: 1 to add, 0 to change, 0 to destroy.
 
 # Changes to Outputs:
-  **+ availability_zone = (known after apply)
-  + public-ip-address = (known after apply)**
+  *+ availability_zone = (known after apply)*
+  *+ public-ip-address = (known after apply)*
 
 Do you want to perform these actions?
   Terraform will perform the actions described above.
@@ -96,5 +96,6 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
 # Outputs:
 
-**availability_zone = "us-east-1d"
-public-ip-address = "54.152.39.37"**
+*availability_zone = "us-east-1d"*
+
+*public-ip-address = "54.152.39.37"*
