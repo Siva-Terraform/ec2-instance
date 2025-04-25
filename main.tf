@@ -1,8 +1,8 @@
 provider "aws" {
-  region = "us-east-1" #set your desigred region
+  region = "us-east-1"
 }
 
-resource "aws_instance" "test_vm" {
-  ami                     = "ami-0e449927258d45bc4"
-  instance_type           = "t2.micro"
+resource "aws_instance" "example" {
+  ami = var.ami_value
+  instance_type = var.instance_type_value
 }
