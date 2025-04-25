@@ -1,4 +1,4 @@
-###when we apply terraform apply and the below is the commnd prompt output
+### when we apply terraform apply and the below is the commnd prompt output with variables.tf, main.tf and terrfarom.tfvars
 
 $ terraform apply
 
